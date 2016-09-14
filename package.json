@@ -1,0 +1,21 @@
+{
+  "name": "tstoy",
+  "version": "0.1.0",
+  "dependencies": {
+    "xstream": "^6.2.0"
+  },
+  "devDependencies": {
+    "json-loader": "^0.5.4",
+    "source-map-loader": "^0.1.5",
+    "ts-loader": "^0.8.2",
+    "webpack": "^1.13.1"
+  },
+  "scripts": {
+    "clean": "rm -rf build/*"
+  },
+  "standard": {
+    "ignore": [
+      "webpack.config.js"
+    ]
+  }
+}

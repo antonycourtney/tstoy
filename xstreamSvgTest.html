@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Hello xstream SVG</title>
+    <style>
+    #app-container {
+      position: relative;
+      width: 400px;
+      height: 400px;
+    }
+    #app-svg {
+      border: 1px solid black;
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      width: 100%;
+      height: 100%;
+    }
+    #app-overlay {
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      width: 100%;
+      height: 100%;
+    }
+    </style>
+  </head>
+  <body>
+    <h1>Basic xstream SVG Test</h1>
+    <div id="app-container">
+      <svg id="app-svg">
+        <title>SVG Panel</title>
+        <desc>A Basic Scene</desc>
+        <g id="scene">
+          <circle cx="200" cy="200" r="50" style="stroke: red; fill: red"/>
+        </g>
+      </svg>
+      <div id="app-overlay">
+    </div>
+    <script src="build/xstreamSvgTest.bundle.js"></script>
+  </body>
+</html>
